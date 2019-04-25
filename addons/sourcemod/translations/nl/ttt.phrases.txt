@@ -1,0 +1,16 @@
+// Exported from SourceMod Translator
+// Date: 2019-02-01 15:59:51 UTC
+// Language: Dutch (nl)
+// 
+// To view other translations for this plugin, please visit:
+// http://translator.mitchdempsey.com/sourcemod_plugins/158
+//
+"Phrases"
+{
+
+	"You killed a Traitor"
+	{
+		"nl"		"Je vermoorde een {darkred}VERRADER!"
+	}
+
+}
