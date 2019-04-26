@@ -48,12 +48,12 @@ public void OnPluginStart()
     TTT_StartConfig("tracer");
     CreateConVar("ttt2_tracer_version", TTT_PLUGIN_VERSION, TTT_PLUGIN_DESCRIPTION, FCVAR_NOTIFY | FCVAR_DONTRECORD | FCVAR_REPLICATED);
     g_cLongName = AutoExecConfig_CreateConVar("tracer_name", "Compass", "The name of this in Shop");
-    g_cPrice = AutoExecConfig_CreateConVar("tracer_price", "9000", "The amount of credits tracer costs as traitor. 0 to disable.");
+    g_cPrice = AutoExecConfig_CreateConVar("tracer_price", "7000", "The amount of credits tracer costs as traitor. 0 to disable.");
     g_cPrio = AutoExecConfig_CreateConVar("tracer_sort_prio", "0", "The sorting priority of the tracer in the shop menu.");
     g_cCompassShowNameDistance = AutoExecConfig_CreateConVar("tracer_compass_show_name_distance", "1024.0", "Max distance to show name / Distance in compass HUD.");
     g_cCompassDisorientationDistance = AutoExecConfig_CreateConVar("tracer_compass_disorientation_distance", "1024.0", "If nearest player is closer than this use 4 instead of 8 directions in compass HUD.");
     g_cJammerLongName = AutoExecConfig_CreateConVar("jammer_name", "Jammer", "The name of this in Shop");
-    g_cJammerPrice = AutoExecConfig_CreateConVar("jammer_price", "9000", "The amount of credits jammer costs as traitor. 0 to disable.");
+    g_cJammerPrice = AutoExecConfig_CreateConVar("jammer_price", "0", "The amount of credits jammer costs as traitor. 0 to disable.");
     g_cJammerPrio = AutoExecConfig_CreateConVar("jammer_sort_prio", "0", "The sorting priority of the jammer in the shop menu.");
     TTT_EndConfig();
 
